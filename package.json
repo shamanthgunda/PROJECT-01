@@ -1,0 +1,17 @@
+{
+  "name": "project-01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.19.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.1.10"
+  }
+}
