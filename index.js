@@ -11,11 +11,11 @@ const port = 8000;
 //Connection
 connectMongoDB("mongodb://127.0.0.1:27017/Myapp-0");
 
-//Middleware - Plugin
+//Middlewares - Plugin
 app.use(express.urlencoded());
 
 app.use((req, res, next) => {
-  console.log("hello from middleware 1");
+  console.log("hello from middleware ");
   next();
 });
 
